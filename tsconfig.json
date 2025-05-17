@@ -9,15 +9,10 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "target": "es2020",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ],
-    "plugins": [
-      { "name": "tslint-language-service"}
-    ]
+    "typeRoots": ["node_modules/@types"],
+    // If you have a "types" array referencing "json-schema" or "send", remove them or install the types.
+    "lib": ["es2017", "dom"],
+    "types": [],
+    "plugins": [{ "name": "tslint-language-service" }]
   }
 }
